@@ -1,13 +1,11 @@
 package dev.naamad.factories;
 
 import dev.naamad.algorithms.XorDecryptionStrategy;
-import dev.naamad.decryption.DecryptionStrategy;
 import dev.naamad.decryption.DecryptionWithNoKey;
 
-public class DecryptionFactory {
+public class DecryptionWithNoKeyFactory {
 
-    public DecryptionStrategy createXorDecryptionStrategy(){
+    public DecryptionWithNoKey createXorDecryptionStrategy(){
         return new XorDecryptionStrategy();
     }
-
 }
